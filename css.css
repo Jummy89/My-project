@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<style>
+    .container > div:hover {
+        background-color: #e0e0e0;
+        transform: scale(1.05);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    header:hover {
+        background-color: #45a049;
+        transition: background-color 0.3s ease;
+    }
+    p:hover {
+        color: #333;
+        transition: color 0.3s ease;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing and Enhancing CSS with Copilot</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container > div {
+            flex: 1 1 200px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    <section>
+        <p>This is a basic webpage style using CSS with the help of copilot.</p>
+    </section>
+    </header>
+    
+</body>
+</html>
